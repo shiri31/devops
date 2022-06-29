@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "shirisha123/hello-docker-java"
-    registryCredential = 'project'
+    registryCredential = 'my_id'
     dockerImage = ''
   }
   agent any
